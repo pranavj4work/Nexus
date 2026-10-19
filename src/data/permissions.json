@@ -1,0 +1,78 @@
+[
+  {
+    "key": "project:create",
+    "description": "Create projects in the active organization"
+  },
+  {
+    "key": "project:read",
+    "description": "View projects and project details"
+  },
+  {
+    "key": "project:update",
+    "description": "Edit projects, members, and project settings"
+  },
+  {
+    "key": "project:delete",
+    "description": "Delete or archive projects"
+  },
+  {
+    "key": "task:create",
+    "description": "Create tasks"
+  },
+  {
+    "key": "task:read",
+    "description": "View tasks"
+  },
+  {
+    "key": "task:update",
+    "description": "Edit tasks, status, priority, and comments"
+  },
+  {
+    "key": "task:delete",
+    "description": "Delete tasks"
+  },
+  {
+    "key": "task:assign",
+    "description": "Assign tasks to members"
+  },
+  {
+    "key": "user:invite",
+    "description": "Invite people into the organization"
+  },
+  {
+    "key": "user:read",
+    "description": "View organization members"
+  },
+  {
+    "key": "user:update",
+    "description": "Edit members and change roles"
+  },
+  {
+    "key": "user:remove",
+    "description": "Remove or disable members"
+  },
+  {
+    "key": "report:view",
+    "description": "View operational reports"
+  },
+  {
+    "key": "settings:read",
+    "description": "View organization and account settings"
+  },
+  {
+    "key": "settings:update",
+    "description": "Update settings and system configuration"
+  },
+  {
+    "key": "audit:view",
+    "description": "View the audit log"
+  },
+  {
+    "key": "feature_flag:read",
+    "description": "View feature flags"
+  },
+  {
+    "key": "feature_flag:update",
+    "description": "Enable or disable feature flags"
+  }
+]

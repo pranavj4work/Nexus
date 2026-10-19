@@ -1,0 +1,282 @@
+[
+  {
+    "id": "mem_001",
+    "userId": "usr_admin",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_super_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-09T08:00:00.000Z"
+  },
+  {
+    "id": "mem_002",
+    "userId": "usr_admin",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_super_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-10T08:00:00.000Z"
+  },
+  {
+    "id": "mem_003",
+    "userId": "usr_admin",
+    "organizationId": "org_initech",
+    "roleIds": [
+      "role_super_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-11T08:00:00.000Z"
+  },
+  {
+    "id": "mem_004",
+    "userId": "usr_manager",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_org_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-12T08:00:00.000Z"
+  },
+  {
+    "id": "mem_005",
+    "userId": "usr_manager",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_viewer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-13T08:00:00.000Z"
+  },
+  {
+    "id": "mem_006",
+    "userId": "usr_pm",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_project_manager"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-14T08:00:00.000Z"
+  },
+  {
+    "id": "mem_007",
+    "userId": "usr_dev",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-15T08:00:00.000Z"
+  },
+  {
+    "id": "mem_008",
+    "userId": "usr_dev",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-16T08:00:00.000Z"
+  },
+  {
+    "id": "mem_009",
+    "userId": "usr_viewer",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_viewer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-17T08:00:00.000Z"
+  },
+  {
+    "id": "mem_010",
+    "userId": "usr_006",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_org_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-18T08:00:00.000Z"
+  },
+  {
+    "id": "mem_011",
+    "userId": "usr_007",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-19T08:00:00.000Z"
+  },
+  {
+    "id": "mem_012",
+    "userId": "usr_008",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-20T08:00:00.000Z"
+  },
+  {
+    "id": "mem_013",
+    "userId": "usr_009",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-21T08:00:00.000Z"
+  },
+  {
+    "id": "mem_014",
+    "userId": "usr_010",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-22T08:00:00.000Z"
+  },
+  {
+    "id": "mem_015",
+    "userId": "usr_019",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-23T08:00:00.000Z"
+  },
+  {
+    "id": "mem_016",
+    "userId": "usr_020",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_viewer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-24T08:00:00.000Z"
+  },
+  {
+    "id": "mem_017",
+    "userId": "usr_023",
+    "organizationId": "org_acme",
+    "roleIds": [
+      "role_project_manager"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-25T08:00:00.000Z"
+  },
+  {
+    "id": "mem_018",
+    "userId": "usr_011",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_project_manager"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-26T08:00:00.000Z"
+  },
+  {
+    "id": "mem_019",
+    "userId": "usr_012",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-27T08:00:00.000Z"
+  },
+  {
+    "id": "mem_020",
+    "userId": "usr_013",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-28T08:00:00.000Z"
+  },
+  {
+    "id": "mem_021",
+    "userId": "usr_014",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_org_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-29T08:00:00.000Z"
+  },
+  {
+    "id": "mem_022",
+    "userId": "usr_015",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-04-30T08:00:00.000Z"
+  },
+  {
+    "id": "mem_023",
+    "userId": "usr_021",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_project_manager"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-05-01T08:00:00.000Z"
+  },
+  {
+    "id": "mem_024",
+    "userId": "usr_024",
+    "organizationId": "org_globex",
+    "roleIds": [
+      "role_viewer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-05-02T08:00:00.000Z"
+  },
+  {
+    "id": "mem_025",
+    "userId": "usr_016",
+    "organizationId": "org_initech",
+    "roleIds": [
+      "role_org_admin"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-05-03T08:00:00.000Z"
+  },
+  {
+    "id": "mem_026",
+    "userId": "usr_017",
+    "organizationId": "org_initech",
+    "roleIds": [
+      "role_developer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-05-04T08:00:00.000Z"
+  },
+  {
+    "id": "mem_027",
+    "userId": "usr_018",
+    "organizationId": "org_initech",
+    "roleIds": [
+      "role_project_manager"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-05-05T08:00:00.000Z"
+  },
+  {
+    "id": "mem_028",
+    "userId": "usr_022",
+    "organizationId": "org_initech",
+    "roleIds": [
+      "role_viewer"
+    ],
+    "status": "ACTIVE",
+    "joinedAt": "2026-05-06T08:00:00.000Z"
+  }
+]

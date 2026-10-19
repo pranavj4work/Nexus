@@ -1,0 +1,252 @@
+[
+  {
+    "id": "prj_001",
+    "organizationId": "org_acme",
+    "name": "Mobile Banking App",
+    "description": "Next generation mobile banking platform for retail customers.",
+    "status": "ACTIVE",
+    "priority": "HIGH",
+    "ownerId": "usr_pm",
+    "progress": 22,
+    "startDate": "2026-07-01",
+    "dueDate": "2026-12-15",
+    "memberIds": [
+      "usr_pm",
+      "usr_dev",
+      "usr_manager",
+      "usr_007",
+      "usr_008",
+      "usr_019"
+    ],
+    "createdAt": "2026-07-01T10:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "prj_002",
+    "organizationId": "org_acme",
+    "name": "Customer Portal Redesign",
+    "description": "Rebuild the authenticated customer portal around the new design system.",
+    "status": "ACTIVE",
+    "priority": "MEDIUM",
+    "ownerId": "usr_023",
+    "progress": 22,
+    "startDate": "2026-08-01",
+    "dueDate": "2026-11-30",
+    "memberIds": [
+      "usr_023",
+      "usr_008",
+      "usr_010",
+      "usr_dev"
+    ],
+    "createdAt": "2026-08-01T10:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "prj_003",
+    "organizationId": "org_acme",
+    "name": "Payments Reconciliation",
+    "description": "Automate ledger matching for card and transfer settlements.",
+    "status": "ON_HOLD",
+    "priority": "HIGH",
+    "ownerId": "usr_006",
+    "progress": 22,
+    "startDate": "2026-05-12",
+    "dueDate": "2026-10-31",
+    "memberIds": [
+      "usr_006",
+      "usr_007",
+      "usr_020"
+    ],
+    "createdAt": "2026-05-12T10:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "prj_004",
+    "organizationId": "org_acme",
+    "name": "Internal Design System",
+    "description": "Shared UI kit, tokens, and accessibility guidelines for product teams.",
+    "status": "COMPLETED",
+    "priority": "MEDIUM",
+    "ownerId": "usr_010",
+    "progress": 22,
+    "startDate": "2026-02-01",
+    "dueDate": "2026-08-15",
+    "memberIds": [
+      "usr_010",
+      "usr_008",
+      "usr_pm"
+    ],
+    "createdAt": "2026-02-01T10:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "prj_005",
+    "organizationId": "org_acme",
+    "name": "Fraud Detection Pipeline",
+    "description": "Streaming rules and case review for suspicious payment activity.",
+    "status": "PLANNING",
+    "priority": "URGENT",
+    "ownerId": "usr_manager",
+    "progress": 22,
+    "startDate": "2026-10-01",
+    "dueDate": "2027-02-28",
+    "memberIds": [
+      "usr_manager",
+      "usr_007",
+      "usr_009",
+      "usr_020"
+    ],
+    "createdAt": "2026-10-01T10:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "prj_006",
+    "organizationId": "org_acme",
+    "name": "Branch Kiosk Rollout",
+    "description": "Retired pilot for in-branch self-service kiosks.",
+    "status": "ARCHIVED",
+    "priority": "LOW",
+    "ownerId": "usr_pm",
+    "progress": 22,
+    "startDate": "2025-09-01",
+    "dueDate": "2026-03-31",
+    "memberIds": [
+      "usr_pm",
+      "usr_019"
+    ],
+    "createdAt": "2025-09-01T10:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "prj_007",
+    "organizationId": "org_globex",
+    "name": "Supply Chain Visibility",
+    "description": "Track shipments, exceptions, and ETAs across regional warehouses.",
+    "status": "ACTIVE",
+    "priority": "HIGH",
+    "ownerId": "usr_011",
+    "progress": 22,
+    "startDate": "2026-06-01",
+    "dueDate": "2026-12-20",
+    "memberIds": [
+      "usr_011",
+      "usr_012",
+      "usr_013",
+      "usr_dev"
+    ],
+    "createdAt": "2026-06-01T10:00:00.000Z",
+    "updatedAt": "2026-09-28T08:00:00.000Z"
+  },
+  {
+    "id": "prj_008",
+    "organizationId": "org_globex",
+    "name": "Vendor Portal",
+    "description": "Let suppliers update orders, invoices, and compliance documents.",
+    "status": "ACTIVE",
+    "priority": "MEDIUM",
+    "ownerId": "usr_014",
+    "progress": 22,
+    "startDate": "2026-04-15",
+    "dueDate": "2026-11-01",
+    "memberIds": [
+      "usr_014",
+      "usr_015",
+      "usr_021"
+    ],
+    "createdAt": "2026-04-15T10:00:00.000Z",
+    "updatedAt": "2026-09-27T08:00:00.000Z"
+  },
+  {
+    "id": "prj_009",
+    "organizationId": "org_globex",
+    "name": "Warehouse Robotics Pilot",
+    "description": "Evaluate autonomous pick robots in the Newark facility.",
+    "status": "PLANNING",
+    "priority": "HIGH",
+    "ownerId": "usr_021",
+    "progress": 22,
+    "startDate": "2026-10-06",
+    "dueDate": "2027-04-01",
+    "memberIds": [
+      "usr_021",
+      "usr_013",
+      "usr_012"
+    ],
+    "createdAt": "2026-10-06T10:00:00.000Z",
+    "updatedAt": "2026-09-26T08:00:00.000Z"
+  },
+  {
+    "id": "prj_010",
+    "organizationId": "org_globex",
+    "name": "ESG Reporting",
+    "description": "Collect emissions and supplier data for the annual report.",
+    "status": "COMPLETED",
+    "priority": "LOW",
+    "ownerId": "usr_024",
+    "progress": 22,
+    "startDate": "2026-01-10",
+    "dueDate": "2026-06-30",
+    "memberIds": [
+      "usr_024",
+      "usr_014"
+    ],
+    "createdAt": "2026-01-10T10:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "prj_011",
+    "organizationId": "org_initech",
+    "name": "HR Self-Service",
+    "description": "Employee profiles, time off, and policy acknowledgements.",
+    "status": "ACTIVE",
+    "priority": "MEDIUM",
+    "ownerId": "usr_018",
+    "progress": 22,
+    "startDate": "2026-07-20",
+    "dueDate": "2026-12-01",
+    "memberIds": [
+      "usr_018",
+      "usr_017",
+      "usr_016"
+    ],
+    "createdAt": "2026-07-20T10:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "prj_012",
+    "organizationId": "org_initech",
+    "name": "Legacy Billing Migration",
+    "description": "Move remaining invoices off the on-prem billing host.",
+    "status": "ON_HOLD",
+    "priority": "URGENT",
+    "ownerId": "usr_016",
+    "progress": 22,
+    "startDate": "2026-03-01",
+    "dueDate": "2026-10-30",
+    "memberIds": [
+      "usr_016",
+      "usr_017",
+      "usr_022"
+    ],
+    "createdAt": "2026-03-01T10:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "prj_013",
+    "organizationId": "org_initech",
+    "name": "Office Intranet Refresh",
+    "description": "Replace the static intranet with searchable internal pages.",
+    "status": "PLANNING",
+    "priority": "LOW",
+    "ownerId": "usr_022",
+    "progress": 22,
+    "startDate": "2026-09-15",
+    "dueDate": "2027-01-15",
+    "memberIds": [
+      "usr_022",
+      "usr_018"
+    ],
+    "createdAt": "2026-09-15T10:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  }
+]

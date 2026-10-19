@@ -1,0 +1,74 @@
+[
+  {
+    "id": "att_001",
+    "organizationId": "org_acme",
+    "taskId": "task_001",
+    "fileName": "auth-flow.pdf",
+    "sizeBytes": 48000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "att_002",
+    "organizationId": "org_acme",
+    "taskId": "task_002",
+    "fileName": "wireframe.png",
+    "sizeBytes": 60000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "att_003",
+    "organizationId": "org_acme",
+    "taskId": "task_003",
+    "fileName": "threat-model.md",
+    "sizeBytes": 72000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "att_004",
+    "organizationId": "org_acme",
+    "taskId": "task_004",
+    "fileName": "api-notes.txt",
+    "sizeBytes": 84000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "att_005",
+    "organizationId": "org_acme",
+    "taskId": "task_005",
+    "fileName": "auth-flow.pdf",
+    "sizeBytes": 96000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "att_006",
+    "organizationId": "org_acme",
+    "taskId": "task_006",
+    "fileName": "wireframe.png",
+    "sizeBytes": 108000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "att_007",
+    "organizationId": "org_acme",
+    "taskId": "task_007",
+    "fileName": "threat-model.md",
+    "sizeBytes": 120000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "att_008",
+    "organizationId": "org_acme",
+    "taskId": "task_008",
+    "fileName": "api-notes.txt",
+    "sizeBytes": 132000,
+    "createdBy": "usr_pm",
+    "createdAt": "2026-09-28T08:00:00.000Z"
+  }
+]

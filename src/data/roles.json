@@ -1,0 +1,101 @@
+[
+  {
+    "id": "role_super_admin",
+    "key": "SUPER_ADMIN",
+    "name": "Super Admin",
+    "description": "Full access across every organization the account belongs to.",
+    "permissions": [
+      "project:create",
+      "project:read",
+      "project:update",
+      "project:delete",
+      "task:create",
+      "task:read",
+      "task:update",
+      "task:delete",
+      "task:assign",
+      "user:invite",
+      "user:read",
+      "user:update",
+      "user:remove",
+      "report:view",
+      "settings:read",
+      "settings:update",
+      "audit:view",
+      "feature_flag:read",
+      "feature_flag:update"
+    ]
+  },
+  {
+    "id": "role_org_admin",
+    "key": "ORG_ADMIN",
+    "name": "Organization Admin",
+    "description": "Manages people, projects, and the audit log inside one organization.",
+    "permissions": [
+      "project:create",
+      "project:read",
+      "project:update",
+      "project:delete",
+      "task:create",
+      "task:read",
+      "task:update",
+      "task:delete",
+      "task:assign",
+      "user:invite",
+      "user:read",
+      "user:update",
+      "user:remove",
+      "report:view",
+      "settings:read",
+      "audit:view"
+    ]
+  },
+  {
+    "id": "role_project_manager",
+    "key": "PROJECT_MANAGER",
+    "name": "Project Manager",
+    "description": "Can manage projects and tasks and view reports.",
+    "permissions": [
+      "project:create",
+      "project:read",
+      "project:update",
+      "project:delete",
+      "task:create",
+      "task:read",
+      "task:update",
+      "task:delete",
+      "task:assign",
+      "user:read",
+      "report:view",
+      "settings:read"
+    ]
+  },
+  {
+    "id": "role_developer",
+    "key": "DEVELOPER",
+    "name": "Developer",
+    "description": "Can update assigned work and collaborate on tasks.",
+    "permissions": [
+      "project:read",
+      "task:create",
+      "task:read",
+      "task:update",
+      "task:assign",
+      "user:read",
+      "settings:read"
+    ]
+  },
+  {
+    "id": "role_viewer",
+    "key": "VIEWER",
+    "name": "Viewer",
+    "description": "Read-only access to projects, tasks, and reports.",
+    "permissions": [
+      "project:read",
+      "task:read",
+      "report:view",
+      "settings:read",
+      "user:read"
+    ]
+  }
+]

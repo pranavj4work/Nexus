@@ -1,0 +1,88 @@
+[
+  {
+    "id": "flag_001",
+    "key": "FEATURE_KANBAN",
+    "description": "Enable the drag-and-drop Kanban board",
+    "enabled": true,
+    "organizationIds": [
+      "org_acme",
+      "org_globex",
+      "org_initech"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "flag_002",
+    "key": "FEATURE_ANALYTICS",
+    "description": "Enable dashboard analytics and the reports area",
+    "enabled": true,
+    "organizationIds": [
+      "org_acme",
+      "org_globex"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "flag_003",
+    "key": "FEATURE_GLOBAL_SEARCH",
+    "description": "Enable the command palette and global search",
+    "enabled": true,
+    "organizationIds": [
+      "org_acme",
+      "org_globex",
+      "org_initech"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "flag_004",
+    "key": "FEATURE_NOTIFICATIONS",
+    "description": "Enable in-app notifications",
+    "enabled": true,
+    "organizationIds": [
+      "org_acme",
+      "org_globex",
+      "org_initech"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "flag_005",
+    "key": "FEATURE_FILE_ATTACHMENTS",
+    "description": "Allow attachment metadata on tasks",
+    "enabled": true,
+    "organizationIds": [
+      "org_acme"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "flag_006",
+    "key": "FEATURE_HIGH_CONTRAST",
+    "description": "Allow the high contrast theme",
+    "enabled": true,
+    "organizationIds": [
+      "org_acme",
+      "org_globex",
+      "org_initech"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": "flag_007",
+    "key": "FEATURE_AI_ASSISTANT",
+    "description": "Show the assistant entry point",
+    "enabled": false,
+    "organizationIds": [
+      "org_acme"
+    ],
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  }
+]

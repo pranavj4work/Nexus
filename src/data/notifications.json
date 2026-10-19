@@ -1,0 +1,786 @@
+[
+  {
+    "id": "ntf_001",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Implement JWT authentication”.",
+    "read": true,
+    "createdAt": "2026-10-06T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_001",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_002",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Add session revocation”.",
+    "read": false,
+    "createdAt": "2026-10-05T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_002",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_003",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Design empty states”.",
+    "read": false,
+    "createdAt": "2026-10-04T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_003",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_004",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Write API contract tests”.",
+    "read": true,
+    "createdAt": "2026-10-03T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_004",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_005",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Index audit events”.",
+    "read": false,
+    "createdAt": "2026-10-02T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_005",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_006",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Mobile Banking App was updated.",
+    "read": false,
+    "createdAt": "2026-10-01T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_006",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_007",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": true,
+    "createdAt": "2026-09-30T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_061",
+      "projectId": "prj_007"
+    }
+  },
+  {
+    "id": "ntf_008",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": false,
+    "createdAt": "2026-09-29T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_098",
+      "projectId": "prj_011"
+    }
+  },
+  {
+    "id": "ntf_009",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Add keyboard shortcuts”.",
+    "read": false,
+    "createdAt": "2026-09-28T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_009",
+      "projectId": "prj_001"
+    }
+  },
+  {
+    "id": "ntf_010",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Write API contract tests”.",
+    "read": true,
+    "createdAt": "2026-09-27T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_010",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_011",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Index audit events”.",
+    "read": false,
+    "createdAt": "2026-09-26T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_011",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_012",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Tune notification copy”.",
+    "read": false,
+    "createdAt": "2026-09-25T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_012",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_013",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Build filter query parser”.",
+    "read": true,
+    "createdAt": "2026-09-24T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_013",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_014",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Customer Portal Redesign was updated.",
+    "read": false,
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_014",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_015",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": false,
+    "createdAt": "2026-09-22T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_069",
+      "projectId": "prj_008"
+    }
+  },
+  {
+    "id": "ntf_016",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": true,
+    "createdAt": "2026-09-21T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_106",
+      "projectId": "prj_012"
+    }
+  },
+  {
+    "id": "ntf_017",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Localize validation errors”.",
+    "read": false,
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_017",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_018",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Support right-to-left layout”.",
+    "read": false,
+    "createdAt": "2026-09-19T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_018",
+      "projectId": "prj_002"
+    }
+  },
+  {
+    "id": "ntf_019",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Build filter query parser”.",
+    "read": true,
+    "createdAt": "2026-09-18T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_019",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_020",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Review access control”.",
+    "read": false,
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_020",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_021",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Add keyboard shortcuts”.",
+    "read": false,
+    "createdAt": "2026-10-06T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_021",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_022",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Payments Reconciliation was updated.",
+    "read": true,
+    "createdAt": "2026-10-05T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_022",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_023",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": false,
+    "createdAt": "2026-10-04T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_077",
+      "projectId": "prj_009"
+    }
+  },
+  {
+    "id": "ntf_024",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": false,
+    "createdAt": "2026-10-03T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_114",
+      "projectId": "prj_013"
+    }
+  },
+  {
+    "id": "ntf_025",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Define design tokens”.",
+    "read": true,
+    "createdAt": "2026-10-02T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_025",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_026",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Seed realistic fixtures”.",
+    "read": false,
+    "createdAt": "2026-10-01T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_026",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_027",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Handle optimistic rollback”.",
+    "read": false,
+    "createdAt": "2026-09-30T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_027",
+      "projectId": "prj_003"
+    }
+  },
+  {
+    "id": "ntf_028",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Profile dashboard queries”.",
+    "read": true,
+    "createdAt": "2026-09-29T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_028",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_029",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Localize validation errors”.",
+    "read": false,
+    "createdAt": "2026-09-28T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_029",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_030",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Internal Design System was updated.",
+    "read": false,
+    "createdAt": "2026-09-27T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_030",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_031",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": true,
+    "createdAt": "2026-09-26T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_085",
+      "projectId": "prj_010"
+    }
+  },
+  {
+    "id": "ntf_032",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": false,
+    "createdAt": "2026-09-25T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_095",
+      "projectId": "prj_011"
+    }
+  },
+  {
+    "id": "ntf_033",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Handle optimistic rollback”.",
+    "read": false,
+    "createdAt": "2026-09-24T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_033",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_034",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Document rate limits”.",
+    "read": true,
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_034",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_035",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Map team workload”.",
+    "read": false,
+    "createdAt": "2026-09-22T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_035",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_036",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Close overdue follow-ups”.",
+    "read": false,
+    "createdAt": "2026-09-21T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_036",
+      "projectId": "prj_004"
+    }
+  },
+  {
+    "id": "ntf_037",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Define design tokens”.",
+    "read": true,
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_037",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_038",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Fraud Detection Pipeline was updated.",
+    "read": false,
+    "createdAt": "2026-09-19T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_038",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_039",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": false,
+    "createdAt": "2026-09-18T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_057",
+      "projectId": "prj_007"
+    }
+  },
+  {
+    "id": "ntf_040",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": true,
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_103",
+      "projectId": "prj_012"
+    }
+  },
+  {
+    "id": "ntf_041",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Map team workload”.",
+    "read": false,
+    "createdAt": "2026-10-06T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_041",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_042",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Close overdue follow-ups”.",
+    "read": false,
+    "createdAt": "2026-10-05T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_042",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_043",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Invite external reviewer”.",
+    "read": true,
+    "createdAt": "2026-10-04T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_043",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_044",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Capture feature flag changes”.",
+    "read": false,
+    "createdAt": "2026-10-03T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_044",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_045",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Set password policy”.",
+    "read": false,
+    "createdAt": "2026-10-02T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_045",
+      "projectId": "prj_005"
+    }
+  },
+  {
+    "id": "ntf_046",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Branch Kiosk Rollout was updated.",
+    "read": true,
+    "createdAt": "2026-10-01T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_046",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_047",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": false,
+    "createdAt": "2026-09-30T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_065",
+      "projectId": "prj_008"
+    }
+  },
+  {
+    "id": "ntf_048",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": false,
+    "createdAt": "2026-09-29T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_111",
+      "projectId": "prj_013"
+    }
+  },
+  {
+    "id": "ntf_049",
+    "organizationId": "org_acme",
+    "userId": "usr_admin",
+    "type": "TASK_ASSIGNED",
+    "title": "Task assigned to you",
+    "message": "Update on “Invite external reviewer”.",
+    "read": true,
+    "createdAt": "2026-09-28T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_049",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_050",
+    "organizationId": "org_acme",
+    "userId": "usr_manager",
+    "type": "TASK_COMMENTED",
+    "title": "New comment on a task",
+    "message": "Update on “Capture feature flag changes”.",
+    "read": false,
+    "createdAt": "2026-09-27T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_050",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_051",
+    "organizationId": "org_acme",
+    "userId": "usr_pm",
+    "type": "TASK_MENTIONED",
+    "title": "You were mentioned",
+    "message": "Update on “Set password policy”.",
+    "read": false,
+    "createdAt": "2026-09-26T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_051",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_052",
+    "organizationId": "org_acme",
+    "userId": "usr_dev",
+    "type": "TASK_DUE_SOON",
+    "title": "Task due soon",
+    "message": "Update on “Prepare mobile board”.",
+    "read": true,
+    "createdAt": "2026-09-25T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_052",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_053",
+    "organizationId": "org_acme",
+    "userId": "usr_viewer",
+    "type": "TASK_OVERDUE",
+    "title": "Task is overdue",
+    "message": "Update on “Attach design spec”.",
+    "read": false,
+    "createdAt": "2026-09-24T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_053",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_054",
+    "organizationId": "org_acme",
+    "userId": "usr_007",
+    "type": "PROJECT_UPDATED",
+    "title": "Project updated",
+    "message": "Branch Kiosk Rollout was updated.",
+    "read": false,
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_054",
+      "projectId": "prj_006"
+    }
+  },
+  {
+    "id": "ntf_055",
+    "organizationId": "org_globex",
+    "userId": "usr_011",
+    "type": "USER_INVITED",
+    "title": "Invitation sent",
+    "message": "A teammate was invited to the organization.",
+    "read": true,
+    "createdAt": "2026-09-22T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_073",
+      "projectId": "prj_009"
+    }
+  },
+  {
+    "id": "ntf_056",
+    "organizationId": "org_initech",
+    "userId": "usr_017",
+    "type": "SYSTEM_ALERT",
+    "title": "System notice",
+    "message": "Session timeout configuration was reviewed.",
+    "read": false,
+    "createdAt": "2026-09-21T08:00:00.000Z",
+    "metadata": {
+      "taskId": "task_092",
+      "projectId": "prj_011"
+    }
+  }
+]

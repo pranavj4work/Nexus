@@ -1,0 +1,2099 @@
+[
+  {
+    "id": "task_001",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Implement JWT authentication",
+    "description": "Implement access and refresh token authentication.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_pm",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-10-15",
+    "createdAt": "2026-07-31T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_002",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Add session revocation",
+    "description": "Allow a user to revoke one session or every other device.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_pm",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-10-14",
+    "createdAt": "2026-08-03T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_003",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Design empty states",
+    "description": "Specify empty, loading, and error states for primary lists.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_manager",
+    "reporterId": "usr_pm",
+    "labels": [
+      "design",
+      "ux"
+    ],
+    "dueDate": "2026-10-18",
+    "createdAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_004",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Write API contract tests",
+    "description": "Cover success, validation, and permission envelopes.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_007",
+    "reporterId": "usr_pm",
+    "labels": [
+      "testing",
+      "api"
+    ],
+    "dueDate": "2026-10-22",
+    "createdAt": "2026-08-09T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_005",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Index audit events",
+    "description": "Make audit search fast enough for a 90 day window.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_008",
+    "reporterId": "usr_pm",
+    "labels": [
+      "audit",
+      "backend"
+    ],
+    "dueDate": "2026-10-26",
+    "createdAt": "2026-08-12T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_006",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Tune notification copy",
+    "description": "Rewrite assignment and due-soon messages for clarity.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_019",
+    "reporterId": "usr_pm",
+    "labels": [
+      "notifications",
+      "content"
+    ],
+    "dueDate": "2026-10-30",
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_007",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Build filter query parser",
+    "description": "Keep status, priority, and page in the URL.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_pm",
+    "labels": [
+      "frontend",
+      "filters"
+    ],
+    "dueDate": "2026-11-03",
+    "createdAt": "2026-08-18T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_008",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Review access control",
+    "description": "Confirm every mutation checks organization and permission.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_pm",
+    "labels": [
+      "security",
+      "rbac"
+    ],
+    "dueDate": "2026-11-07",
+    "createdAt": "2026-08-21T08:00:00.000Z",
+    "updatedAt": "2026-09-28T08:00:00.000Z"
+  },
+  {
+    "id": "task_009",
+    "organizationId": "org_acme",
+    "projectId": "prj_001",
+    "title": "Add keyboard shortcuts",
+    "description": "Open search with Command K and move through results.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_manager",
+    "reporterId": "usr_pm",
+    "labels": [
+      "accessibility",
+      "search"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-08-24T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_010",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Write API contract tests",
+    "description": "Cover success, validation, and permission envelopes.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_023",
+    "reporterId": "usr_023",
+    "labels": [
+      "testing",
+      "api"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-08-27T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_011",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Index audit events",
+    "description": "Make audit search fast enough for a 90 day window.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_008",
+    "reporterId": "usr_023",
+    "labels": [
+      "audit",
+      "backend"
+    ],
+    "dueDate": "2026-10-15",
+    "createdAt": "2026-08-30T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_012",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Tune notification copy",
+    "description": "Rewrite assignment and due-soon messages for clarity.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_010",
+    "reporterId": "usr_023",
+    "labels": [
+      "notifications",
+      "content"
+    ],
+    "dueDate": "2026-10-19",
+    "createdAt": "2026-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_013",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Build filter query parser",
+    "description": "Keep status, priority, and page in the URL.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_023",
+    "labels": [
+      "frontend",
+      "filters"
+    ],
+    "dueDate": "2026-10-23",
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "updatedAt": "2026-09-23T08:00:00.000Z"
+  },
+  {
+    "id": "task_014",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Review access control",
+    "description": "Confirm every mutation checks organization and permission.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_023",
+    "reporterId": "usr_023",
+    "labels": [
+      "security",
+      "rbac"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-09-08T08:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_015",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Add keyboard shortcuts",
+    "description": "Open search with Command K and move through results.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_008",
+    "reporterId": "usr_023",
+    "labels": [
+      "accessibility",
+      "search"
+    ],
+    "dueDate": "2026-10-31",
+    "createdAt": "2026-09-11T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_016",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Profile dashboard queries",
+    "description": "Avoid refetching chart data on every sidebar click.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_010",
+    "reporterId": "usr_023",
+    "labels": [
+      "performance",
+      "dashboard"
+    ],
+    "dueDate": "2026-11-04",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-09-20T08:00:00.000Z"
+  },
+  {
+    "id": "task_017",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Localize validation errors",
+    "description": "Return translation keys instead of hardcoded sentences.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_023",
+    "labels": [
+      "i18n",
+      "forms"
+    ],
+    "dueDate": "2026-11-08",
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_018",
+    "organizationId": "org_acme",
+    "projectId": "prj_002",
+    "title": "Support right-to-left layout",
+    "description": "Use logical properties so Arabic mirrors the shell.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_023",
+    "reporterId": "usr_023",
+    "labels": [
+      "i18n",
+      "rtl"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_019",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Build filter query parser",
+    "description": "Keep status, priority, and page in the URL.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_006",
+    "reporterId": "usr_006",
+    "labels": [
+      "frontend",
+      "filters"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_020",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Review access control",
+    "description": "Confirm every mutation checks organization and permission.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_007",
+    "reporterId": "usr_006",
+    "labels": [
+      "security",
+      "rbac"
+    ],
+    "dueDate": "2026-10-16",
+    "createdAt": "2026-07-28T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_021",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Add keyboard shortcuts",
+    "description": "Open search with Command K and move through results.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_020",
+    "reporterId": "usr_006",
+    "labels": [
+      "accessibility",
+      "search"
+    ],
+    "dueDate": "2026-10-20",
+    "createdAt": "2026-07-31T08:00:00.000Z",
+    "updatedAt": "2026-09-15T08:00:00.000Z"
+  },
+  {
+    "id": "task_022",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Profile dashboard queries",
+    "description": "Avoid refetching chart data on every sidebar click.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_006",
+    "reporterId": "usr_006",
+    "labels": [
+      "performance",
+      "dashboard"
+    ],
+    "dueDate": "2026-10-24",
+    "createdAt": "2026-08-03T08:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_023",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Localize validation errors",
+    "description": "Return translation keys instead of hardcoded sentences.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_007",
+    "reporterId": "usr_006",
+    "labels": [
+      "i18n",
+      "forms"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_024",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Support right-to-left layout",
+    "description": "Use logical properties so Arabic mirrors the shell.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_020",
+    "reporterId": "usr_006",
+    "labels": [
+      "i18n",
+      "rtl"
+    ],
+    "dueDate": "2026-11-01",
+    "createdAt": "2026-08-09T08:00:00.000Z",
+    "updatedAt": "2026-09-12T08:00:00.000Z"
+  },
+  {
+    "id": "task_025",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Define design tokens",
+    "description": "Expose brand colors only through CSS variables.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_006",
+    "reporterId": "usr_006",
+    "labels": [
+      "design",
+      "theming"
+    ],
+    "dueDate": "2026-11-05",
+    "createdAt": "2026-08-12T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_026",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Seed realistic fixtures",
+    "description": "Give pagination enough varied rows to be meaningful.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_007",
+    "reporterId": "usr_006",
+    "labels": [
+      "data",
+      "testing"
+    ],
+    "dueDate": "2026-11-09",
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_027",
+    "organizationId": "org_acme",
+    "projectId": "prj_003",
+    "title": "Handle optimistic rollback",
+    "description": "Restore the previous card if a status update fails.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_020",
+    "reporterId": "usr_006",
+    "labels": [
+      "frontend",
+      "kanban"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-08-18T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_028",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Profile dashboard queries",
+    "description": "Avoid refetching chart data on every sidebar click.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_010",
+    "reporterId": "usr_010",
+    "labels": [
+      "performance",
+      "dashboard"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-08-21T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_029",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Localize validation errors",
+    "description": "Return translation keys instead of hardcoded sentences.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_008",
+    "reporterId": "usr_010",
+    "labels": [
+      "i18n",
+      "forms"
+    ],
+    "dueDate": "2026-10-17",
+    "createdAt": "2026-08-24T08:00:00.000Z",
+    "updatedAt": "2026-09-07T08:00:00.000Z"
+  },
+  {
+    "id": "task_030",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Support right-to-left layout",
+    "description": "Use logical properties so Arabic mirrors the shell.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_010",
+    "labels": [
+      "i18n",
+      "rtl"
+    ],
+    "dueDate": "2026-10-21",
+    "createdAt": "2026-08-27T08:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_031",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Define design tokens",
+    "description": "Expose brand colors only through CSS variables.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_010",
+    "reporterId": "usr_010",
+    "labels": [
+      "design",
+      "theming"
+    ],
+    "dueDate": "2026-10-25",
+    "createdAt": "2026-08-30T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_032",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Seed realistic fixtures",
+    "description": "Give pagination enough varied rows to be meaningful.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_008",
+    "reporterId": "usr_010",
+    "labels": [
+      "data",
+      "testing"
+    ],
+    "dueDate": "2026-10-29",
+    "createdAt": "2026-09-02T08:00:00.000Z",
+    "updatedAt": "2026-09-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_033",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Handle optimistic rollback",
+    "description": "Restore the previous card if a status update fails.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_010",
+    "labels": [
+      "frontend",
+      "kanban"
+    ],
+    "dueDate": "2026-11-02",
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_034",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Document rate limits",
+    "description": "Show a clear message when login or search is limited.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_010",
+    "reporterId": "usr_010",
+    "labels": [
+      "security",
+      "api"
+    ],
+    "dueDate": "2026-11-06",
+    "createdAt": "2026-09-08T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_035",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Map team workload",
+    "description": "Count open tasks per assignee for the dashboard.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_008",
+    "reporterId": "usr_010",
+    "labels": [
+      "dashboard",
+      "reporting"
+    ],
+    "dueDate": "2026-11-10",
+    "createdAt": "2026-09-11T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_036",
+    "organizationId": "org_acme",
+    "projectId": "prj_004",
+    "title": "Close overdue follow-ups",
+    "description": "Surface tasks past due that are not done.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_010",
+    "labels": [
+      "tasks",
+      "reporting"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_037",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Define design tokens",
+    "description": "Expose brand colors only through CSS variables.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_manager",
+    "reporterId": "usr_manager",
+    "labels": [
+      "design",
+      "theming"
+    ],
+    "dueDate": "2026-10-14",
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "updatedAt": "2026-08-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_038",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Seed realistic fixtures",
+    "description": "Give pagination enough varied rows to be meaningful.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_007",
+    "reporterId": "usr_manager",
+    "labels": [
+      "data",
+      "testing"
+    ],
+    "dueDate": "2026-10-18",
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_039",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Handle optimistic rollback",
+    "description": "Restore the previous card if a status update fails.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_009",
+    "reporterId": "usr_manager",
+    "labels": [
+      "frontend",
+      "kanban"
+    ],
+    "dueDate": "2026-10-22",
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_040",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Document rate limits",
+    "description": "Show a clear message when login or search is limited.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_020",
+    "reporterId": "usr_manager",
+    "labels": [
+      "security",
+      "api"
+    ],
+    "dueDate": "2026-10-26",
+    "createdAt": "2026-07-28T08:00:00.000Z",
+    "updatedAt": "2026-08-27T08:00:00.000Z"
+  },
+  {
+    "id": "task_041",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Map team workload",
+    "description": "Count open tasks per assignee for the dashboard.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_manager",
+    "reporterId": "usr_manager",
+    "labels": [
+      "dashboard",
+      "reporting"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-07-31T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_042",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Close overdue follow-ups",
+    "description": "Surface tasks past due that are not done.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_007",
+    "reporterId": "usr_manager",
+    "labels": [
+      "tasks",
+      "reporting"
+    ],
+    "dueDate": "2026-11-03",
+    "createdAt": "2026-08-03T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_043",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Invite external reviewer",
+    "description": "Send an invitation that stays pending until accepted.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_009",
+    "reporterId": "usr_manager",
+    "labels": [
+      "users",
+      "admin"
+    ],
+    "dueDate": "2026-11-07",
+    "createdAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_044",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Capture feature flag changes",
+    "description": "Write an audit event when a flag is toggled.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_020",
+    "reporterId": "usr_manager",
+    "labels": [
+      "audit",
+      "flags"
+    ],
+    "dueDate": "2026-11-11",
+    "createdAt": "2026-08-09T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_045",
+    "organizationId": "org_acme",
+    "projectId": "prj_005",
+    "title": "Set password policy",
+    "description": "Read minimum length from system configuration.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_manager",
+    "reporterId": "usr_manager",
+    "labels": [
+      "security",
+      "config"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-08-12T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_046",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Document rate limits",
+    "description": "Show a clear message when login or search is limited.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_pm",
+    "labels": [
+      "security",
+      "api"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-09-30T08:00:00.000Z"
+  },
+  {
+    "id": "task_047",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Map team workload",
+    "description": "Count open tasks per assignee for the dashboard.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_019",
+    "reporterId": "usr_pm",
+    "labels": [
+      "dashboard",
+      "reporting"
+    ],
+    "dueDate": "2026-10-14",
+    "createdAt": "2026-08-18T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_048",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Close overdue follow-ups",
+    "description": "Surface tasks past due that are not done.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_pm",
+    "labels": [
+      "tasks",
+      "reporting"
+    ],
+    "dueDate": "2026-10-18",
+    "createdAt": "2026-08-21T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_049",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Invite external reviewer",
+    "description": "Send an invitation that stays pending until accepted.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_019",
+    "reporterId": "usr_pm",
+    "labels": [
+      "users",
+      "admin"
+    ],
+    "dueDate": "2026-10-22",
+    "createdAt": "2026-08-24T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_050",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Capture feature flag changes",
+    "description": "Write an audit event when a flag is toggled.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_pm",
+    "labels": [
+      "audit",
+      "flags"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-08-27T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_051",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Set password policy",
+    "description": "Read minimum length from system configuration.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_019",
+    "reporterId": "usr_pm",
+    "labels": [
+      "security",
+      "config"
+    ],
+    "dueDate": "2026-10-30",
+    "createdAt": "2026-08-30T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_052",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Prepare mobile board",
+    "description": "Keep Kanban columns usable in a horizontal scroller.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_pm",
+    "labels": [
+      "kanban",
+      "mobile"
+    ],
+    "dueDate": "2026-11-03",
+    "createdAt": "2026-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_053",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Attach design spec",
+    "description": "Store attachment metadata without a binary upload.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_019",
+    "reporterId": "usr_pm",
+    "labels": [
+      "tasks",
+      "files"
+    ],
+    "dueDate": "2026-11-07",
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_054",
+    "organizationId": "org_acme",
+    "projectId": "prj_006",
+    "title": "Reconcile project progress",
+    "description": "Derive progress from completed tasks.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_pm",
+    "reporterId": "usr_pm",
+    "labels": [
+      "projects",
+      "reporting"
+    ],
+    "dueDate": "2026-11-11",
+    "createdAt": "2026-09-08T08:00:00.000Z",
+    "updatedAt": "2026-09-27T08:00:00.000Z"
+  },
+  {
+    "id": "task_055",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Invite external reviewer",
+    "description": "Send an invitation that stays pending until accepted.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_011",
+    "reporterId": "usr_011",
+    "labels": [
+      "users",
+      "admin"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-09-11T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_056",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Capture feature flag changes",
+    "description": "Write an audit event when a flag is toggled.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_012",
+    "reporterId": "usr_011",
+    "labels": [
+      "audit",
+      "flags"
+    ],
+    "dueDate": "2026-10-15",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-09-25T08:00:00.000Z"
+  },
+  {
+    "id": "task_057",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Set password policy",
+    "description": "Read minimum length from system configuration.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_013",
+    "reporterId": "usr_011",
+    "labels": [
+      "security",
+      "config"
+    ],
+    "dueDate": "2026-10-19",
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_058",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Prepare mobile board",
+    "description": "Keep Kanban columns usable in a horizontal scroller.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_011",
+    "labels": [
+      "kanban",
+      "mobile"
+    ],
+    "dueDate": "2026-10-23",
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_059",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Attach design spec",
+    "description": "Store attachment metadata without a binary upload.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_011",
+    "reporterId": "usr_011",
+    "labels": [
+      "tasks",
+      "files"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_060",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Reconcile project progress",
+    "description": "Derive progress from completed tasks.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_012",
+    "reporterId": "usr_011",
+    "labels": [
+      "projects",
+      "reporting"
+    ],
+    "dueDate": "2026-10-31",
+    "createdAt": "2026-07-28T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_061",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Guard cross-org reads",
+    "description": "Return not found when an id belongs to another tenant.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_013",
+    "reporterId": "usr_011",
+    "labels": [
+      "security",
+      "tenancy"
+    ],
+    "dueDate": "2026-11-04",
+    "createdAt": "2026-07-31T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_062",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Refresh access tokens",
+    "description": "Rotate the refresh token and reject reused hashes.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_dev",
+    "reporterId": "usr_011",
+    "labels": [
+      "authentication",
+      "api"
+    ],
+    "dueDate": "2026-11-08",
+    "createdAt": "2026-08-03T08:00:00.000Z",
+    "updatedAt": "2026-09-19T08:00:00.000Z"
+  },
+  {
+    "id": "task_063",
+    "organizationId": "org_globex",
+    "projectId": "prj_007",
+    "title": "Add comment mentions",
+    "description": "Notify the mentioned member inside the organization.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_011",
+    "reporterId": "usr_011",
+    "labels": [
+      "notifications",
+      "tasks"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_064",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Prepare mobile board",
+    "description": "Keep Kanban columns usable in a horizontal scroller.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_014",
+    "labels": [
+      "kanban",
+      "mobile"
+    ],
+    "dueDate": "2026-10-12",
+    "createdAt": "2026-08-09T08:00:00.000Z",
+    "updatedAt": "2026-09-17T08:00:00.000Z"
+  },
+  {
+    "id": "task_065",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Attach design spec",
+    "description": "Store attachment metadata without a binary upload.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_015",
+    "reporterId": "usr_014",
+    "labels": [
+      "tasks",
+      "files"
+    ],
+    "dueDate": "2026-10-16",
+    "createdAt": "2026-08-12T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_066",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Reconcile project progress",
+    "description": "Derive progress from completed tasks.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_021",
+    "reporterId": "usr_014",
+    "labels": [
+      "projects",
+      "reporting"
+    ],
+    "dueDate": "2026-10-20",
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_067",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Guard cross-org reads",
+    "description": "Return not found when an id belongs to another tenant.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_014",
+    "labels": [
+      "security",
+      "tenancy"
+    ],
+    "dueDate": "2026-10-24",
+    "createdAt": "2026-08-18T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_068",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Refresh access tokens",
+    "description": "Rotate the refresh token and reject reused hashes.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_015",
+    "reporterId": "usr_014",
+    "labels": [
+      "authentication",
+      "api"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-08-21T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_069",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Add comment mentions",
+    "description": "Notify the mentioned member inside the organization.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_021",
+    "reporterId": "usr_014",
+    "labels": [
+      "notifications",
+      "tasks"
+    ],
+    "dueDate": "2026-11-01",
+    "createdAt": "2026-08-24T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_070",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Sort the member table",
+    "description": "Allow name and role sorting without losing filters.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_014",
+    "labels": [
+      "users",
+      "tables"
+    ],
+    "dueDate": "2026-11-05",
+    "createdAt": "2026-08-27T08:00:00.000Z",
+    "updatedAt": "2026-09-11T08:00:00.000Z"
+  },
+  {
+    "id": "task_071",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Check contrast tokens",
+    "description": "Keep text readable in high contrast mode.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_015",
+    "reporterId": "usr_014",
+    "labels": [
+      "accessibility",
+      "theming"
+    ],
+    "dueDate": "2026-11-09",
+    "createdAt": "2026-08-30T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_072",
+    "organizationId": "org_globex",
+    "projectId": "prj_008",
+    "title": "Schedule daily digest",
+    "description": "Respect the organization notification configuration.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_021",
+    "reporterId": "usr_014",
+    "labels": [
+      "notifications",
+      "config"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-06T08:00:00.000Z"
+  },
+  {
+    "id": "task_073",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Guard cross-org reads",
+    "description": "Return not found when an id belongs to another tenant.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_021",
+    "reporterId": "usr_021",
+    "labels": [
+      "security",
+      "tenancy"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-05T08:00:00.000Z"
+  },
+  {
+    "id": "task_074",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Refresh access tokens",
+    "description": "Rotate the refresh token and reject reused hashes.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_013",
+    "reporterId": "usr_021",
+    "labels": [
+      "authentication",
+      "api"
+    ],
+    "dueDate": "2026-10-17",
+    "createdAt": "2026-09-08T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_075",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Add comment mentions",
+    "description": "Notify the mentioned member inside the organization.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_012",
+    "reporterId": "usr_021",
+    "labels": [
+      "notifications",
+      "tasks"
+    ],
+    "dueDate": "2026-10-21",
+    "createdAt": "2026-09-11T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_076",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Sort the member table",
+    "description": "Allow name and role sorting without losing filters.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_021",
+    "reporterId": "usr_021",
+    "labels": [
+      "users",
+      "tables"
+    ],
+    "dueDate": "2026-10-25",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_077",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Check contrast tokens",
+    "description": "Keep text readable in high contrast mode.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_013",
+    "reporterId": "usr_021",
+    "labels": [
+      "accessibility",
+      "theming"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_078",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Schedule daily digest",
+    "description": "Respect the organization notification configuration.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_012",
+    "reporterId": "usr_021",
+    "labels": [
+      "notifications",
+      "config"
+    ],
+    "dueDate": "2026-11-02",
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "updatedAt": "2026-09-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_079",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Archive stale project",
+    "description": "Move a finished project to archived without deleting history.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_021",
+    "reporterId": "usr_021",
+    "labels": [
+      "projects"
+    ],
+    "dueDate": "2026-11-06",
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_080",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Split reviewer queue",
+    "description": "Separate in-review tasks from active implementation.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_013",
+    "reporterId": "usr_021",
+    "labels": [
+      "kanban",
+      "workflow"
+    ],
+    "dueDate": "2026-11-10",
+    "createdAt": "2026-07-28T08:00:00.000Z",
+    "updatedAt": "2026-10-06T08:00:00.000Z"
+  },
+  {
+    "id": "task_081",
+    "organizationId": "org_globex",
+    "projectId": "prj_009",
+    "title": "Label security work",
+    "description": "Tag authentication tasks so they can be filtered.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_012",
+    "reporterId": "usr_021",
+    "labels": [
+      "tasks",
+      "security"
+    ],
+    "dueDate": "2026-11-14",
+    "createdAt": "2026-07-31T08:00:00.000Z",
+    "updatedAt": "2026-08-31T08:00:00.000Z"
+  },
+  {
+    "id": "task_082",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Sort the member table",
+    "description": "Allow name and role sorting without losing filters.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_024",
+    "reporterId": "usr_024",
+    "labels": [
+      "users",
+      "tables"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-08-03T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_083",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Check contrast tokens",
+    "description": "Keep text readable in high contrast mode.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_024",
+    "labels": [
+      "accessibility",
+      "theming"
+    ],
+    "dueDate": "2026-10-18",
+    "createdAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_084",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Schedule daily digest",
+    "description": "Respect the organization notification configuration.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_024",
+    "reporterId": "usr_024",
+    "labels": [
+      "notifications",
+      "config"
+    ],
+    "dueDate": "2026-10-22",
+    "createdAt": "2026-08-09T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_085",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Archive stale project",
+    "description": "Move a finished project to archived without deleting history.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_024",
+    "labels": [
+      "projects"
+    ],
+    "dueDate": "2026-10-26",
+    "createdAt": "2026-08-12T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_086",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Split reviewer queue",
+    "description": "Separate in-review tasks from active implementation.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_024",
+    "reporterId": "usr_024",
+    "labels": [
+      "kanban",
+      "workflow"
+    ],
+    "dueDate": "2026-10-30",
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-08-26T08:00:00.000Z"
+  },
+  {
+    "id": "task_087",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Label security work",
+    "description": "Tag authentication tasks so they can be filtered.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_024",
+    "labels": [
+      "tasks",
+      "security"
+    ],
+    "dueDate": "2026-11-03",
+    "createdAt": "2026-08-18T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_088",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Verify email handoff",
+    "description": "Block sign-in until the verification token is used.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_024",
+    "reporterId": "usr_024",
+    "labels": [
+      "authentication"
+    ],
+    "dueDate": "2026-11-07",
+    "createdAt": "2026-08-21T08:00:00.000Z",
+    "updatedAt": "2026-10-06T08:00:00.000Z"
+  },
+  {
+    "id": "task_089",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Export report snapshot",
+    "description": "Summarize completion for the selected date range.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_014",
+    "reporterId": "usr_024",
+    "labels": [
+      "reporting"
+    ],
+    "dueDate": "2026-11-11",
+    "createdAt": "2026-08-24T08:00:00.000Z",
+    "updatedAt": "2026-08-23T08:00:00.000Z"
+  },
+  {
+    "id": "task_090",
+    "organizationId": "org_globex",
+    "projectId": "prj_010",
+    "title": "Reduce layout shift",
+    "description": "Reserve space for skeleton loaders on first paint.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_024",
+    "reporterId": "usr_024",
+    "labels": [
+      "frontend",
+      "performance"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-08-27T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_091",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Archive stale project",
+    "description": "Move a finished project to archived without deleting history.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_018",
+    "labels": [
+      "projects"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-08-30T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_092",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Split reviewer queue",
+    "description": "Separate in-review tasks from active implementation.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_017",
+    "reporterId": "usr_018",
+    "labels": [
+      "kanban",
+      "workflow"
+    ],
+    "dueDate": "2026-10-14",
+    "createdAt": "2026-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_093",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Label security work",
+    "description": "Tag authentication tasks so they can be filtered.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_016",
+    "reporterId": "usr_018",
+    "labels": [
+      "tasks",
+      "security"
+    ],
+    "dueDate": "2026-10-18",
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_094",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Verify email handoff",
+    "description": "Block sign-in until the verification token is used.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_018",
+    "labels": [
+      "authentication"
+    ],
+    "dueDate": "2026-10-22",
+    "createdAt": "2026-09-08T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_095",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Export report snapshot",
+    "description": "Summarize completion for the selected date range.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_017",
+    "reporterId": "usr_018",
+    "labels": [
+      "reporting"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-09-11T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_096",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Reduce layout shift",
+    "description": "Reserve space for skeleton loaders on first paint.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_016",
+    "reporterId": "usr_018",
+    "labels": [
+      "frontend",
+      "performance"
+    ],
+    "dueDate": "2026-10-30",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-10-06T08:00:00.000Z"
+  },
+  {
+    "id": "task_097",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Implement JWT authentication",
+    "description": "Implement access and refresh token authentication.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_018",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-11-03",
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_098",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Add session revocation",
+    "description": "Allow a user to revoke one session or every other device.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_017",
+    "reporterId": "usr_018",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-11-07",
+    "createdAt": "2026-09-20T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_099",
+    "organizationId": "org_initech",
+    "projectId": "prj_011",
+    "title": "Design empty states",
+    "description": "Specify empty, loading, and error states for primary lists.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_016",
+    "reporterId": "usr_018",
+    "labels": [
+      "design",
+      "ux"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-09-23T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_100",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Verify email handoff",
+    "description": "Block sign-in until the verification token is used.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_016",
+    "reporterId": "usr_016",
+    "labels": [
+      "authentication"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-07-28T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_101",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Export report snapshot",
+    "description": "Summarize completion for the selected date range.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_017",
+    "reporterId": "usr_016",
+    "labels": [
+      "reporting"
+    ],
+    "dueDate": "2026-10-15",
+    "createdAt": "2026-07-31T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_102",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Reduce layout shift",
+    "description": "Reserve space for skeleton loaders on first paint.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_016",
+    "labels": [
+      "frontend",
+      "performance"
+    ],
+    "dueDate": "2026-10-19",
+    "createdAt": "2026-08-03T08:00:00.000Z",
+    "updatedAt": "2026-09-24T08:00:00.000Z"
+  },
+  {
+    "id": "task_103",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Implement JWT authentication",
+    "description": "Implement access and refresh token authentication.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_016",
+    "reporterId": "usr_016",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-10-23",
+    "createdAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_104",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Add session revocation",
+    "description": "Allow a user to revoke one session or every other device.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_017",
+    "reporterId": "usr_016",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-09-30",
+    "createdAt": "2026-08-09T08:00:00.000Z",
+    "updatedAt": "2026-10-06T08:00:00.000Z"
+  },
+  {
+    "id": "task_105",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Design empty states",
+    "description": "Specify empty, loading, and error states for primary lists.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_016",
+    "labels": [
+      "design",
+      "ux"
+    ],
+    "dueDate": "2026-10-31",
+    "createdAt": "2026-08-12T08:00:00.000Z",
+    "updatedAt": "2026-09-21T08:00:00.000Z"
+  },
+  {
+    "id": "task_106",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Write API contract tests",
+    "description": "Cover success, validation, and permission envelopes.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_016",
+    "reporterId": "usr_016",
+    "labels": [
+      "testing",
+      "api"
+    ],
+    "dueDate": "2026-11-04",
+    "createdAt": "2026-08-15T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_107",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Index audit events",
+    "description": "Make audit search fast enough for a 90 day window.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_017",
+    "reporterId": "usr_016",
+    "labels": [
+      "audit",
+      "backend"
+    ],
+    "dueDate": "2026-11-08",
+    "createdAt": "2026-08-18T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_108",
+    "organizationId": "org_initech",
+    "projectId": "prj_012",
+    "title": "Tune notification copy",
+    "description": "Rewrite assignment and due-soon messages for clarity.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_016",
+    "labels": [
+      "notifications",
+      "content"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-08-21T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_109",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Implement JWT authentication",
+    "description": "Implement access and refresh token authentication.",
+    "status": "IN_REVIEW",
+    "priority": "URGENT",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_022",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-10-04",
+    "createdAt": "2026-08-24T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  },
+  {
+    "id": "task_110",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Add session revocation",
+    "description": "Allow a user to revoke one session or every other device.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_022",
+    "labels": [
+      "authentication",
+      "security"
+    ],
+    "dueDate": "2026-10-16",
+    "createdAt": "2026-08-27T08:00:00.000Z",
+    "updatedAt": "2026-09-16T08:00:00.000Z"
+  },
+  {
+    "id": "task_111",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Design empty states",
+    "description": "Specify empty, loading, and error states for primary lists.",
+    "status": "TODO",
+    "priority": "HIGH",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_022",
+    "labels": [
+      "design",
+      "ux"
+    ],
+    "dueDate": "2026-10-20",
+    "createdAt": "2026-08-30T08:00:00.000Z",
+    "updatedAt": "2026-09-29T08:00:00.000Z"
+  },
+  {
+    "id": "task_112",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Write API contract tests",
+    "description": "Cover success, validation, and permission envelopes.",
+    "status": "IN_PROGRESS",
+    "priority": "LOW",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_022",
+    "labels": [
+      "testing",
+      "api"
+    ],
+    "dueDate": "2026-10-24",
+    "createdAt": "2026-09-02T08:00:00.000Z",
+    "updatedAt": "2026-10-06T08:00:00.000Z"
+  },
+  {
+    "id": "task_113",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Index audit events",
+    "description": "Make audit search fast enough for a 90 day window.",
+    "status": "DONE",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_022",
+    "labels": [
+      "audit",
+      "backend"
+    ],
+    "dueDate": "2026-10-28",
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "updatedAt": "2026-09-13T08:00:00.000Z"
+  },
+  {
+    "id": "task_114",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Tune notification copy",
+    "description": "Rewrite assignment and due-soon messages for clarity.",
+    "status": "BACKLOG",
+    "priority": "HIGH",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_022",
+    "labels": [
+      "notifications",
+      "content"
+    ],
+    "dueDate": "2026-11-01",
+    "createdAt": "2026-09-08T08:00:00.000Z",
+    "updatedAt": "2026-10-04T08:00:00.000Z"
+  },
+  {
+    "id": "task_115",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Build filter query parser",
+    "description": "Keep status, priority, and page in the URL.",
+    "status": "BACKLOG",
+    "priority": "LOW",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_022",
+    "labels": [
+      "frontend",
+      "filters"
+    ],
+    "dueDate": "2026-11-05",
+    "createdAt": "2026-09-11T08:00:00.000Z",
+    "updatedAt": "2026-10-03T08:00:00.000Z"
+  },
+  {
+    "id": "task_116",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Review access control",
+    "description": "Confirm every mutation checks organization and permission.",
+    "status": "TODO",
+    "priority": "MEDIUM",
+    "assigneeId": "usr_018",
+    "reporterId": "usr_022",
+    "labels": [
+      "security",
+      "rbac"
+    ],
+    "dueDate": "2026-11-09",
+    "createdAt": "2026-09-14T08:00:00.000Z",
+    "updatedAt": "2026-10-02T08:00:00.000Z"
+  },
+  {
+    "id": "task_117",
+    "organizationId": "org_initech",
+    "projectId": "prj_013",
+    "title": "Add keyboard shortcuts",
+    "description": "Open search with Command K and move through results.",
+    "status": "IN_PROGRESS",
+    "priority": "HIGH",
+    "assigneeId": "usr_022",
+    "reporterId": "usr_022",
+    "labels": [
+      "accessibility",
+      "search"
+    ],
+    "dueDate": "2026-10-02",
+    "createdAt": "2026-09-17T08:00:00.000Z",
+    "updatedAt": "2026-10-01T08:00:00.000Z"
+  }
+]

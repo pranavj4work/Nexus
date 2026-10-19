@@ -1,0 +1,32 @@
+[
+  {
+    "id": "org_acme",
+    "name": "Acme Corporation",
+    "slug": "acme",
+    "plan": "PRO",
+    "defaultLanguage": "en",
+    "defaultTheme": "dark",
+    "timezone": "Asia/Kolkata",
+    "createdAt": "2026-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "org_globex",
+    "name": "Globex Corporation",
+    "slug": "globex",
+    "plan": "ENTERPRISE",
+    "defaultLanguage": "en",
+    "defaultTheme": "light",
+    "timezone": "America/New_York",
+    "createdAt": "2025-11-02T15:00:00.000Z"
+  },
+  {
+    "id": "org_initech",
+    "name": "Initech",
+    "slug": "initech",
+    "plan": "STARTER",
+    "defaultLanguage": "fr",
+    "defaultTheme": "system",
+    "timezone": "Europe/Paris",
+    "createdAt": "2026-03-20T09:00:00.000Z"
+  }
+]

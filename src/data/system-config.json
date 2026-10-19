@@ -1,0 +1,200 @@
+[
+  {
+    "key": "AUTH_SESSION_TIMEOUT",
+    "category": "AUTHENTICATION",
+    "type": "NUMBER",
+    "value": 30,
+    "description": "Session timeout in minutes",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "AUTH_MAX_LOGIN_ATTEMPTS",
+    "category": "AUTHENTICATION",
+    "type": "NUMBER",
+    "value": 5,
+    "description": "Failed sign-in attempts before a temporary lock",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "AUTH_PASSWORD_MIN_LENGTH",
+    "category": "AUTHENTICATION",
+    "type": "NUMBER",
+    "value": 8,
+    "description": "Minimum password length",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "AUTH_MFA_REQUIRED",
+    "category": "AUTHENTICATION",
+    "type": "BOOLEAN",
+    "value": false,
+    "description": "Require a second factor at sign-in",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "AUTH_REFRESH_TOKEN_DAYS",
+    "category": "AUTHENTICATION",
+    "type": "NUMBER",
+    "value": 7,
+    "description": "Refresh token lifetime in days",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "PROJECTS_MAX",
+    "category": "PROJECTS",
+    "type": "NUMBER",
+    "value": 50,
+    "description": "Maximum projects per organization",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "PROJECTS_DEFAULT_STATUS",
+    "category": "PROJECTS",
+    "type": "STRING",
+    "value": "PLANNING",
+    "description": "Status applied when a project is created",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "PROJECTS_ALLOW_CREATION",
+    "category": "PROJECTS",
+    "type": "BOOLEAN",
+    "value": true,
+    "description": "Allow members with permission to create projects",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "PROJECTS_ALLOW_ARCHIVE",
+    "category": "PROJECTS",
+    "type": "BOOLEAN",
+    "value": true,
+    "description": "Allow projects to be archived",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "TASKS_ALLOW_ASSIGNMENT",
+    "category": "TASKS",
+    "type": "BOOLEAN",
+    "value": true,
+    "description": "Allow tasks to be assigned",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "TASKS_DEFAULT_PRIORITY",
+    "category": "TASKS",
+    "type": "STRING",
+    "value": "MEDIUM",
+    "description": "Priority applied when a task is created",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "TASKS_ALLOW_ATTACHMENTS",
+    "category": "TASKS",
+    "type": "BOOLEAN",
+    "value": true,
+    "description": "Allow attachment metadata on tasks",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "TASKS_MAX_LABELS",
+    "category": "TASKS",
+    "type": "NUMBER",
+    "value": 8,
+    "description": "Maximum labels on a task",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "NOTIFICATIONS_EMAIL",
+    "category": "NOTIFICATIONS",
+    "type": "BOOLEAN",
+    "value": true,
+    "description": "Enable email notification delivery",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "NOTIFICATIONS_IN_APP",
+    "category": "NOTIFICATIONS",
+    "type": "BOOLEAN",
+    "value": true,
+    "description": "Enable in-app notifications",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "NOTIFICATIONS_DAILY_DIGEST",
+    "category": "NOTIFICATIONS",
+    "type": "BOOLEAN",
+    "value": false,
+    "description": "Send a daily digest",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "NOTIFICATIONS_DUE_SOON_DAYS",
+    "category": "NOTIFICATIONS",
+    "type": "NUMBER",
+    "value": 3,
+    "description": "Days before a due date to warn",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "UI_DEFAULT_LANGUAGE",
+    "category": "UI",
+    "type": "STRING",
+    "value": "en",
+    "description": "Default interface language",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "UI_DEFAULT_THEME",
+    "category": "UI",
+    "type": "STRING",
+    "value": "system",
+    "description": "Default color theme",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "UI_COMPACT_MODE",
+    "category": "UI",
+    "type": "BOOLEAN",
+    "value": false,
+    "description": "Use compact density by default",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "UI_DEFAULT_DENSITY",
+    "category": "UI",
+    "type": "STRING",
+    "value": "comfortable",
+    "description": "Default interface density",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "key": "AUDIT_RETENTION_DAYS",
+    "category": "UI",
+    "type": "NUMBER",
+    "value": 365,
+    "description": "Days to retain audit events",
+    "updatedBy": "usr_admin",
+    "updatedAt": "2026-10-01T10:00:00.000Z"
+  }
+]
